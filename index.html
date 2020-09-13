@@ -6,12 +6,19 @@
   <title>Netlfix</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' media='screen' href='style/main.css'>
-  <script src='main.js'></script>
+
+<!--Responsividade-->
+<link rel="stylesheet" href="style/responsive.css">
+
+<!---OWL CSS-->
+<link rel="stylesheet" href='style/owl/owl.carousel.min.css'>
+<link rel="stylesheet" href='style/owl/owl.theme.default.min.css'>
+
 </head>
 <body>
   <header>
     <div class="container">
-      <h2 class="logo">NETFLIX</h2>
+      <h2 class="Logo">NETFLIX</h2>
      <nav>
       <a href="#">Inicio</a>
       <a href="#">Séries</a>
@@ -20,5 +27,69 @@
      </nav>
     </div>
   </header>
+
+  <main>
+    <div class="filme-principal">
+      <div class="container">
+        <h3 class="titulo">HOW I MET YOUR MOTHER</h3>
+        <p class="descricao">No ano de 2030, Ted Mosby, um arquiteto, decide explicar a seus filhos a história de como ele conheceu a mãe deles. Tudo começou em 2005, quando um de seus amigos decidiu se casar e Ted precisou correr atrás de um amor.</p>
+      
+      <div class="botoes">
+        <button role="button" class="botao">
+          <i class="fas fa-play"></i>
+          ASSISTIR AGORA
+        </button>
+        <button role="button"class="botao">
+          <i class="fas fa-info-circle"></i>
+          MAIS INFORMAÇÕES
+        </button>
+       </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="carrosel-filmes">
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img class="box-filmes" src = "img/mini1.jpg" alt="">
+        </div>
+        <div class="item">
+          <img class="box-filmes" src = "img/mini2.jpg" alt="">
+        </div>
+        <div class="item">
+          <img class="box-filmes" src = "img/mini3.jpg" alt="">
+        </div>
+        <div class="item">
+          <img class="box-filmes" src = "img/mini4.jpg" alt="">
+        </div>
+        <div class="item">
+          <img class="box-filmes" src = "img/mini5.jpg" alt="">
+        </div>
+        <div class="item">
+          <img class="box-filmes" src = "img/mini6.jpg" alt="">
+        </div>
+        <div class="item">
+          <img class="box-filmes" src = "img/mini7.jpg" alt="">
+        </div>
+        <div class="item">
+          <img class="box-filmes" src = "img/mini8.jpg" alt="">
+        </div>
+        <div class="item">
+          <img class="box-filmes" src = "img/mini9.jpg" alt="">
+        </div>
+        <div class="item">
+          <img class="box-filmes" src = "img/mini10.jpg" alt="">
+        </div>
+    </div>
+  </div>
+
+
+  <script src="https://kit.fontawesome.com/ecb6c1ae93.js" crossorigin="anonymous"></script>
+  <script src="js/owl/jquery.min.js"></script>
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <script src="js/owl/setup.js"></script>
+
+
+
 </body>
 </html>
